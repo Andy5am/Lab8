@@ -21,6 +21,7 @@ class Triangulo: Dibujable,Describible {
     override fun dibujar(){
         //ciclos necesarios para dibujar el cuadrado en base a su ancho
         var triangulo =""
+        // esta variable ayuda eliminar los espacion al dibujar el triangulo
         var espacios:Int = 1
         for (i in 0 until altura){
             for (j in 0 until altura-espacios){
